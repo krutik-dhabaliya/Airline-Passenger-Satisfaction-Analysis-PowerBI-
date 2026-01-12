@@ -26,7 +26,7 @@ Using Power BI dashboards, this project transforms raw survey data into meaningf
 
 ## Data Cleaning and Transformation
 
-## Power Query
+### Power Query
 The dataset was first imported into Power BI using Power Query, where initial data preparation and transformation steps were performed to ensure data quality and usability for analysis.
 
 Column health indicators were reviewed to check for missing values, data type issues, and inconsistencies across all fields. This step helped identify columns requiring attention before building visualizations.
@@ -43,12 +43,23 @@ To simplify analysis and improve readability, **conditional columns were created
   width="80%"
 />
 
+The Unpivot feature (Transform tab) was used to restructure multiple service-related rating columns into a standardized, long-format table. This transformation made it easier to compare satisfaction scores across different service categories within the dashboard.
 
+Additionally, custom tables were created to organize data logically and support smoother analysis, allowing clearer segmentation and more flexible reporting within Power BI.
 
+<img 
+  src="https://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analysis-using-Power-BI/blob/main/Images/Unpivot.png" 
+  width="80%"
+/>
 
+### Data Modeling
+A star schema–based data model was implemented in Power BI to support efficient analysis and flexible filtering across visuals. The DataSet table serves as the central fact table, containing passenger demographics, travel details, service ratings, and satisfaction information.
 
+Supporting dimension tables such as Age_Bins and Satisfaction_Scale were created to simplify segmentation and enhance interpretability. An additional unpivoted service table enables easy comparison across different service categories.
 
+Tables are connected using one-to-many relationships with bi-directional filtering, allowing interactions to flow seamlessly across visuals. This model design supports accurate insights, interactive reporting, and scalable dashboard development.
 
-
-
-
+<p align="center">
+  <img src="https://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analysis-using-Power-BI/blob/main/Images/Star.png" width="45%" />
+  <img src="Ihttps://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analysis-using-Power-BI/blob/main/Images/Relationship.png" width="45%" />
+</p>
