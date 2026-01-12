@@ -64,7 +64,8 @@ Supporting dimension tables such as Age_Bins and Satisfaction_Scale were created
 
 Tables are connected using one-to-many relationships with bi-directional filtering, allowing interactions to flow seamlessly across visuals. This model design supports accurate insights, interactive reporting, and scalable dashboard development.
 
-<p align="center">
-  <img src="https://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analysis-using-Power-BI/blob/main/Images/Star.png" width="45%" />
-  <img src="https://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analysis-using-Power-BI/blob/main/Images/Relationship.png" width="45%" />
-</p>
+<img 
+src = "https://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analysis-using-Power-BI/blob/main/Images/Relationship.png" 
+width="50%" 
+/>
+
