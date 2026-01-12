@@ -1,3 +1,4 @@
+
 # Airline Passenger Satisfaction Analysis using Power BI
 
 ## Project Overview and Business Objectives
@@ -69,3 +70,87 @@ src = "https://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analys
 width="50%" 
 />
 
+## Dashboard Design, Insights & Business Impact
+
+
+The dashboard reveals that overall passenger satisfaction is **moderate**, with a large proportion of passengers falling into neutral or just-satisfied categories. This indicates a strong opportunity to improve service quality and convert neutral experiences into positive ones. 
+
+The dashboard enables stakeholders to monitor overall performance, explore passenger segments, and identify key service improvement areas.
+
+The layout follows a **top-down storytelling approach**, supported by a consistent color palette to improve readability and guide user attention toward key insights.
+
+<img 
+src = "https://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analysis-using-Power-BI/blob/main/Images/Dashboard.png" 
+width="80%" 
+/>
+
+### Key Insights and Business Impact
+
+- The **average passenger satisfaction score is 3.0**, indicating moderate satisfaction with significant scope for improvement.
+- **Neutral (63,244 passengers)** and **Satisfied (45,995 passengers)** form the largest groups, while **Very Satisfied passengers account for only 3,485**, highlighting an opportunity to elevate customer experience.
+-  **Business travelers represent ~69%** of total passengers, making them the most influential segment for satisfaction improvements.
+- **Inflight service and baggage handling are the strongest performers (avg. rating: 4.0)**, while the remaining service categories underperform, signaling clear opportunities for service enhancement.
+
+### Actionable Recommendations
+- Prioritize improvement for dissatisfied passengers, who currently represent 12.22% (very dissatisfied) and 16.97% (dissatisfied) of the total passenger base. Targeting these groups presents the greatest opportunity to improve overall satisfaction levels.
+- By addressing key service gaps for dissatisfied passengers, there is strong potential to move customers from dissatisfied to neutral, and subsequently convert neutral passengers into satisfied customers, creating a positive shift across satisfaction categories.
+- Focus immediate improvement efforts on controllable service areas such as online booking, gate location, and inflight Wi-Fi, as these services consistently receive high dissatisfaction scores and can be improved more quickly compared to operational factors.
+- Enhancing these high-impact services is likely to reduce dissatisfaction levels in the short term and contribute to a measurable increase in neutral and satisfied passenger ratings.
+- Use the Power BI dashboard to continuously monitor changes in satisfaction distribution and assess the effectiveness of service improvements over time.
+
+## Limitations & Assumptions
+This analysis is subject to the following assumptions and limitations, which should be considered when interpreting the results:
+
+### Assumptions
+#### a.  Flight Type Classification:
+Flight distance was categorized to simplify analysis and comparison:
+
+-   **Long Flight:** Distance ≥ 3,700
+    
+-   **Medium Flight:** Distance ≥ 1,500 and < 3,700
+    
+-   **Short Flight:** Distance < 1,500  
+    
+This categorization is assumed to reasonably represent short-, medium-, and long-haul travel patterns.
+
+#### b. Rounding of Average Satisfaction Scores:
+Minor discrepancies were observed between the grand total average (e.g., 3.28) and KPI card average (e.g., 3.26) due to aggregation behavior in Power BI visuals. To maintain consistency across the report, average satisfaction scores were rounded to whole numbers, ensuring uniform interpretation throughout the dashboard.
+
+#### c. Service Category Grouping:
+Individual service attributes were grouped into broader categories to improve interpretability and storytelling:
+
+- Before-Boarding Services: Ease of Online Booking, Check-in Service, Online Boarding, Gate Location
+
+- Flight Services: On-board Service, Seat Comfort, Leg Room Service, Cleanliness, Food and Drink
+
+- Essential Services: In-flight Service, In-flight Wi-Fi Service, In-flight Entertainment, Baggage Handling
+
+These groupings assume that services within each category represent similar stages of the passenger journey.
+
+### Limitation
+-   **Data Scope:**   The analysis is limited to the variables available in the dataset and does not include external factors such as ticket pricing, airline brand, route characteristics, or seasonal effects.
+    
+-   **Sampling Bias:** The dataset is survey-based and may reflect **response bias**, as passengers with strong positive or negative experiences are more likely to provide feedback.
+    
+-   **Analytical Scope:**   The dashboard focuses on **descriptive and diagnostic insights** and does not establish causal relationships between service factors and satisfaction.
+    
+
+Despite these limitations, the dashboard provides meaningful insights into passenger satisfaction patterns and supports informed, data-driven decision-making.
+
+## Future Improvements
+To further enhance the value of this analysis, the following improvements can be considered:
+
+-   **Time-Series Analysis:** Incorporate flight date or time-based data to track satisfaction trends and seasonal patterns.
+    
+-   **Automated Data Refresh:** Enable scheduled data refresh to ensure insights remain up to date.
+    
+
+    
+-   **Enhanced Drill-Downs:** Add deeper drill-down functionality by route, airport, or service category for more granular analysis.
+    
+-   **External Data Integration:** Include additional data such as ticket pricing, airline brand, or route information for richer insights.
+
+## Conclusion
+This project demonstrates how Power BI can be used to transform raw passenger survey data into meaningful business insights. By combining thoughtful data modeling, intuitive dashboard design, and clear storytelling, the analysis highlights key drivers of passenger satisfaction and identifies actionable improvement areas.
+
+The dashboard enables stakeholders to move beyond static reports, supporting informed decision-making and continuous service improvement. Overall, this project showcases a strong foundation in business intelligence, data visualization, and analytical thinking.
