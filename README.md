@@ -40,7 +40,7 @@ To simplify analysis and improve readability, **conditional columns were created
 
 <img 
   src="https://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analysis-using-Power-BI/blob/main/Images/Conditional.png" 
-  width="80%"
+  width="50%"
 />
 
 The Unpivot feature (Transform tab) was used to restructure multiple service-related rating columns into a standardized, long-format table. This transformation made it easier to compare satisfaction scores across different service categories within the dashboard.
@@ -49,7 +49,7 @@ Additionally, custom tables were created to organize data logically and support 
 
 <img 
   src="https://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analysis-using-Power-BI/blob/main/Images/Unpivot.png" 
-  width="80%"
+  width="50%"
 />
 
 ### Data Modeling
@@ -57,9 +57,14 @@ A star schema–based data model was implemented in Power BI to support efficien
 
 Supporting dimension tables such as Age_Bins and Satisfaction_Scale were created to simplify segmentation and enhance interpretability. An additional unpivoted service table enables easy comparison across different service categories.
 
+<img 
+  src="https://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analysis-using-Power-BI/blob/main/Images/Star.png" 
+  width="50%"
+/>
+
 Tables are connected using one-to-many relationships with bi-directional filtering, allowing interactions to flow seamlessly across visuals. This model design supports accurate insights, interactive reporting, and scalable dashboard development.
 
 <p align="center">
   <img src="https://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analysis-using-Power-BI/blob/main/Images/Star.png" width="45%" />
-  <img src="Ihttps://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analysis-using-Power-BI/blob/main/Images/Relationship.png" width="45%" />
+  <img src="https://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analysis-using-Power-BI/blob/main/Images/Relationship.png" width="45%" />
 </p>
