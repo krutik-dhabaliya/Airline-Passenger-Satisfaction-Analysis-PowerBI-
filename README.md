@@ -31,9 +31,20 @@ The dataset was first imported into Power BI using Power Query, where initial da
 
 Column health indicators were reviewed to check for missing values, data type issues, and inconsistencies across all fields. This step helped identify columns requiring attention before building visualizations.
 
-![enter image description here](https://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analysis-using-Power-BI/blob/main/Images/Column%20Health.png)
+<img 
+  src="https://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analysis-using-Power-BI/blob/main/Images/Column%20Health.png?raw=true" 
+  width="80%"
+/>
 
-adasfafa
+To simplify analysis and improve readability, **conditional columns were created** to group and categorize values meaningfully, such as converting raw numerical or categorical inputs into more interpretable labels where required.
+
+<img 
+  src="https://github.com/krutik-dhabaliya/Airline-Passenger-Satisfaction-Analysis-using-Power-BI/blob/main/Images/Conditional.png" 
+  width="80%"
+/>
+
+
+
 
 
 
